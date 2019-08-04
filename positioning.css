@@ -1,0 +1,65 @@
+ * {
+    width: 1024px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    box-sizing: content-box;
+  }
+  
+  .clearfix:: after {
+    content: "";
+      display: block;
+    clear: both;  
+  }
+  
+  .box{
+      text-align: center;
+      color: black;
+  }
+  
+  body {
+  }
+  
+  header {
+    text-align: left;
+    color: black;
+    font-size: 28px;
+  }
+
+  main {
+    text-align: left;
+    color: black;
+    font-size: 12px;
+  }
+  
+
+  #box1 {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+  }
+  
+  #box2 {
+    position: absolute;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 25%;
+    top: 100px;
+    right: -40px;
+    background-color:slategray;
+    float: left;
+  }
+ 
+  #box3 {
+    position: fixed;
+    height: 120px;
+    width: 150px;
+    top: 0px;
+    left: 0px;
+    background-color: lightgrey;
+    /* float: left; */
+  }
